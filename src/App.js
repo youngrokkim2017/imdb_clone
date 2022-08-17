@@ -16,9 +16,24 @@ const App = () => {
 
     // console.log(API_URL)
     return (
-        <h1>
-            App
-        </h1>
+        <div>
+            <h1>App</h1>
+            <div className="search-container">
+                <input
+                    placeholder="search for movies"
+                    value="The Emperor's New Groove"
+                    onChange={() => {}}
+                />
+            </div>
+            <div>
+                <div>
+                    <div>
+                        {/* Movie Details */}
+                    </div>
+                </div>
+            </div>
+        </div>
+
     )
 }
 
